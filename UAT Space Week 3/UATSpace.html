@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- This UAT Space page was created by Jakob Davis, in CSC102 Spring 2023
+this is the the week 2 blastoff assignment-->
+<html>
+    <head>
+        <!--Behold... the head, where all the behind the background stuff happens-->
+        <title>
+            UAT Space Page
+        </title>
+        <script src="code.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <img src="UATspaceLogo.jpg">
+        <h1>
+                UAT Space Page
+        </h1>
+        <p>
+            Man I sure hope nothing <br> splits this sentence into 2 lines.
+        </p>
+        <script>
+            //you have been alerted
+            //I got annoyed by the alert so i made it a comment for now... alert("Go away I'm playing Minecraft");
+            document.write("This sentence is brought to you by the document.write function.");
+        </script>
+        <br>
+        <br>
+        <!-- sets the Blastoff Timer text to red-->
+        <h2 style="color: red;">Blastoff Timer</h2>
+        <div id="blastoffDis">Press Start to begin blastoff timer</div>
+        <br>
+        <br>
+        <br>
+        <!-- starts the blastoffTimer function-->
+        <button onclick="blastoffTimer();">Start</button>
+        <!-- no functionality atm-->
+        <button>Stop</button>
+        <br>
+        <br>
+        <h2>Craps Game</h2>
+        <div id="die1Res">Die 1 result</div><br>
+        <div id="die2Res">Die 2 result</div><br>
+        <div id="diceSum">Sum of Die 1 and Die 2</div><br>
+        <div id="gameRes">Game Result</div><br>
+        <!--starts the playCraps function-->
+        <button onclick="playCraps()">Play Craps!</button><br>
+        <br>
+        wins<br>
+        <div id="winsRes">0</div><br>
+        <br>
+        losses<br>
+        <div id="lossesRes">0</div><br>
+        <br>
+        draws<br>
+        <div id="drawsRes">0</div><br>
+        <br>
+    </body>
+</html>
